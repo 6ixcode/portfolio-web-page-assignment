@@ -1,0 +1,34 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color:lightyellow;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12;
+  margin: auto;
+}
+/*CSS codes affect the styling of whats within all containers */
+h1, h3 {
+  background-color: purple;
+  color: lightblue;
+  text-align: center;  
+  font-family:'Courier New', Courier, monospace;
+  height: 1%;
+  margin: 2%;
+  padding: 2%;
+}
+/*CSS codes affect the styling of whats exclusively in the containers containing the h1 and h3 element.*/
+h1 {
+  text-shadow: 2px 2px white;
+   font-size: 42px;
+}
+/*CSS code targeting only the h1 element for percise styling.*/
+
+a {
+   font-family: 'Courier New', Courier, monospace;
+  font-size: 12px; 
+}
+a:link {color:blue;}
+a:visited {color:purple;}
+a:hover {color:lightblue;}
+a:active {color:darkblue;}     
+/*CSS codes targeting styling of links */ 
